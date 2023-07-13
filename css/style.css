@@ -1,0 +1,70 @@
+*{margin:0; paddin:0}
+
+body{
+  bckground-color:#DEE2E6;
+  max-width:100%;
+  overflow-x:hidden;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+section span{
+  background-color:red;
+  color:blue;
+  display:flex;
+  margin:7px;
+  width:32px; height:3px;
+}
+#container{
+  bakground-color:blue;
+  margin-top:10%;
+  
+}
+
+#image-box{
+  background-image:linear-gradient(to left,#4361EE,#3A0CA3);
+  margin:0 auto;
+  width:99%; height:30vh;
+  position:relative;
+  border-radius:10px;
+}
+#image-box img{
+  width:38%;
+  height:auto;
+  margin-top:-60.5%;
+  position:absolute;
+  margin-left:60%;
+  boder:1px solid black;
+  position:absolute;
+}
+
+.text{
+  color:snow;
+  font-size:24px;
+  margin-right:140px; 
+  margin-top:-160px;
+  position:relative;
+  text-align:right;
+}
+
+.waves svg{
+  margin-top:40%;
+}
+
+.about{
+  background-color:#4361EE;
+  color:snow;
+  backround-color:#F8F9FA;
+  width:94.2%; height:50vh;
+  padding:15px 10px;
+  margin-top:25.5%;
+  text-align:justify;
+  font-size:14px;
+  margin-right:auto;
+  margin-left:auto;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+
+.sosial-media img {
+  width:10%; height:auto;
+  border-radius:100%;
+}

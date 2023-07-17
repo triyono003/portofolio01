@@ -1,0 +1,16 @@
+*{margin:0; padding:0;}
+body{
+  max-width:95%;
+  margin:0 auto;
+}
+
+header img{
+  width:25px; height:auto;
+  margin-left:-10px;
+}
+#container img{
+  width:95%; height:auto;
+  margin:2%;
+  border:2px solid red;
+  margin-top:5%;
+}

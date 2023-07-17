@@ -1,4 +1,4 @@
-*{margin:0; paddin:0}
+*{margin:0; padding:0;}
 
 body{
   bckground-color:#DEE2E6;
@@ -6,23 +6,52 @@ body{
   overflow-x:hidden;
   font-family: 'Montserrat Alternates', sans-serif;
 }
-section span{
-  background-color:red;
-  color:blue;
+nav{
+  backgrond-color:#4895ef;
+  color:snow;
+  padding:5px 0px;
+  margin:0 auto;
+  width:99%
+}
+nav ul,li{
+  font-size:14px;
+  list-style:none;
   display:flex;
-  margin:7px;
-  width:32px; height:3px;
+  justify-content:space-between;
+  font-weight:bold;
+  padding:5px 7px;
+  border-radius:5px;
+}
+nav li:nth-child(1):hover{
+  opacity:0.5;
+  padding:5px 7px;
+  border-radius:5px;
+  background-image:linear-gradient(to left,#4361EE,#3A0CA3);
+}
+
+nav li:nth-child(2):hover{
+  opacity:0.5;
+  padding:5px 7px;
+  border-radius:5px;
+  background-image:linear-gradient(to left,#4361EE,#3A0CA3);
+}
+
+nav li:nth-child(3):hover{
+  opacity:0.5;
+  padding:5px 7px;
+  border-radius:5px;
+  background-image:linear-gradient(to left,#4361EE,#3A0CA3);
 }
 #container{
   bakground-color:blue;
-  margin-top:10%;
+  margin-top:2%;
   
 }
 
 #image-box{
   background-image:linear-gradient(to left,#4361EE,#3A0CA3);
   margin:0 auto;
-  width:99%; height:30vh;
+  width:99%; height:35vh;
   position:relative;
   border-radius:10px;
 }
@@ -38,7 +67,7 @@ section span{
 
 .text{
   color:snow;
-  font-size:24px;
+  font-size:3vh;
   margin-right:140px; 
   margin-top:-160px;
   position:relative;
@@ -46,16 +75,19 @@ section span{
 }
 
 .waves svg{
-  margin-top:40%;
+  width:100%;
+  margin-top:38.5%;
+  position:relative;
 }
 
 .about{
+  backgrund-image:linear-gradient(to left,#4361EE,#3A0CA3);
   background-color:#4361EE;
   color:snow;
   backround-color:#F8F9FA;
   width:94.2%; height:50vh;
   padding:15px 10px;
-  margin-top:25.5%;
+  margin-top:23.5%;
   text-align:justify;
   font-size:14px;
   margin-right:auto;
